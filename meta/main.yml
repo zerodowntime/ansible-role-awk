@@ -5,7 +5,7 @@ dependencies: []
 
 
 galaxy_info:
-  role_name: aws
+  role_name: awk
   author: ZeroDowntime
   description: Install awk
   company: ZeroDowntime Sp. z o.o.
