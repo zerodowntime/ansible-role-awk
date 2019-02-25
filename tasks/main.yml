@@ -1,0 +1,10 @@
+---
+# zerodowntime.awk/tasks/main.yml
+
+- name: 'install awk'
+  become: true
+  package:
+    name: "{{ awk__package_name }}"
+    state: "{{ awk__package_state }}"
+  tags:
+    - awk

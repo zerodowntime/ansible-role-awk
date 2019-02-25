@@ -1,0 +1,11 @@
+---
+# zerodowntime.awk/default/main.yml
+
+# awk__package_state: string
+# installed package state
+awk__package_state: present
+
+
+# awk__package_name: string
+# installed package name
+awk__package_name: gawk
