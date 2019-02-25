@@ -1,4 +1,4 @@
-# motd
+# awk
 
 Ansible role install AWK
 
@@ -26,7 +26,7 @@ Supported platforms:
 | Variable name      | Required? |  Type  | Description             |
 |:------------------ |:---------:|:------:|:----------------------- |
 | awk__package_state |    yes    | string | installed package state |
-| awk__package_name  |    yes    | string | installed package name  | 
+| awk__package_name  |    yes    | string | installed package name  |
 
 **All variables are described in [defaults/main.yml](defaults/main.yml) file.**
 
